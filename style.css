@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #3f255f;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.m-heading {
+  font-family: "Coda Caption", sans-serif;
+}
+
+.navigation-link {
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  border-bottom: 2px solid #f5ba09;
+  transition: 0.5s ease;
+}
+
+.main-container {
+  min-height: 100vh;
+}
+
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 10rem; */
+}
+
+.img-fluid {
+  width: auto;
+  height: 28rem;
+  padding-left: 6rem;
+  padding-top: 4rem;
+}
+
+.main_row img {
+  width: auto;
+  height: 45rem;
+}
+
+.main_row h1 {
+  font-size: 5rem;
+}
+
+#about {
+  background: #3d3152;
+  border-radius: 0.6rem;
+}
+
+.card {
+  border-bottom: 8px solid #f5ba09;
+}
+
+#social-media {
+  background-color: #3d3152;
+}
+
+.media_link {
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 2px solid #f5ba09;
+  border-radius: 0.5rem;
+}
